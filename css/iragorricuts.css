@@ -14,11 +14,14 @@ body {
 h1, span {
     font-family: 'IRAGORRICUTS';
 }
+span {
+    font-size: 12px;
+}
 .text-align-center {
     text-align: center;
 
 }
-.margin-left-right-1-5-em {
+.social-icons {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 	color: #fff;
