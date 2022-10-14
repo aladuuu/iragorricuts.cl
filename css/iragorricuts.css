@@ -11,14 +11,14 @@
 body {
 	background-color: #fff;
 }
-span {
-	font-family: 'IRAGORRICUTS';
+h1, span {
+    font-family: 'IRAGORRICUTS';
 }
 .text-align-center {
     text-align: center;
 
 }
-.margin-social-icons {
+.margin-left-right-1-5-em {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 	color: #fff;
@@ -28,9 +28,12 @@ span {
     max-width: 900px;
     margin-top: 10em;
 }
-.arrow-down-margin {
+.margin-top-5-em {
     margin-top: 5em;
 }
-.offcanvas-height {
-    height: 200px;
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
