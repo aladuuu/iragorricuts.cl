@@ -1,10 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @font-face {
-    font-family: 'Amazonas1';
-    src:url('fonts/Amazonas1.ttf.woff') format('woff'),
-        url('fonts/Amazonas1.ttf.svg#Amazonas1') format('svg'),
-        url('fonts/Amazonas1.ttf.eot'),
-        url('fonts/Amazonas1.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'IRAGORRICUTS';
+    src:url('fonts/IRAGORRICUTS.ttf.woff') format('woff'),
+        url('fonts/IRAGORRICUTS.ttf.svg#IRAGORRICUTS') format('svg'),
+        url('fonts/IRAGORRICUTS.ttf.eot'),
+        url('fonts/IRAGORRICUTS.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -12,37 +12,26 @@ body {
 	background-color: #fff;
 }
 span {
-	font-family: 'Amazonas1';
+	font-family: 'IRAGORRICUTS';
 }
-div.sombra {
-    position:absolute;
-    max-width:50%;
-    max-height:50%;
-    top:50%;
-    left:50%;
-    overflow:visible;
+
+.text-align-center {
+    text-align: center;
+
 }
-img.logo {
-    position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-top:-50%;
-    margin-left:-50%;
-}
-.boton {
-    position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-top:-50%;
-    margin-left:-50%;
-    font-size: 2em;
-}
-.info {
-	text-align: center;
-}
-.contacto {
+.margin-social-icons {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
-	font-size: 1.5em;
 	color: #fff;
+}
+.logo {
+    width: 80%;
+    max-width: 900px;
+    margin-top: 10em;
+}
+.arrow-down-margin {
+    margin-top: 5em;
+}
+.offcanvas-height {
+    height: 200px;
 }
